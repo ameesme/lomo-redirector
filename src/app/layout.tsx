@@ -19,7 +19,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Analytics />
-      <body className={inter.className}>{children}</body>
+      <body
+        className={inter.className}
+        style={{
+          backgroundColor: "#141414",
+          color: "#fff",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          height: "100vh",
+        }}
+      >
+        {children}
+      </body>
     </html>
   );
 }

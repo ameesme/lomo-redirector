@@ -6,12 +6,12 @@ export default function DownloadAppRoute() {
   useEffect(() => {
     setTimeout(() => {
       window.location.href = "/get";
-    }, 1000);
+    }, 500);
   }, []);
 
   return (
     <div>
-      <p>We sturen je door!</p>
+      <p>Redirecting...</p>
     </div>
   );
 }
