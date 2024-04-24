@@ -1,8 +1,13 @@
-import { redirect } from "next/navigation";
+"use client";
+
 import { useEffect } from "react";
 
 export default function DownloadAppRoute() {
-  redirect("/get");
+  useEffect(() => {
+    setTimeout(() => {
+      window.location.href = "/get";
+    }, 1000);
+  }, []);
 
   return (
     <div>
