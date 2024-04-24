@@ -1,7 +1,12 @@
 import { redirect } from "next/navigation";
+import { useEffect } from "react";
 
-export default async function DownloadAppRoute() {
-  redirect("/");
+export default function DownloadAppRoute() {
+  redirect("/get");
 
-  return <div></div>;
+  return (
+    <div>
+      <p>We sturen je door!</p>
+    </div>
+  );
 }
