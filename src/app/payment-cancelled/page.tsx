@@ -5,7 +5,7 @@ import { useEffect } from "react";
 export default function PaymentCancelledRoute() {
   useEffect(() => {
     setTimeout(() => {
-      window.location.href = "co.lomoapp://payment-cancelled";
+      window.location.href = "co.lomoapp://payment?status=cancelled";
     }, 200);
   }, []);
 
