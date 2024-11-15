@@ -5,7 +5,7 @@ import { useEffect } from "react";
 export default function PaymentSuccessRoute() {
   useEffect(() => {
     setTimeout(() => {
-      window.location.href = "co.lomoapp://payment?status=success";
+      window.location.href = "co.lomoapp://?status=success";
     }, 200);
   }, []);
 
