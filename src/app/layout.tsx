@@ -6,8 +6,8 @@ import { useEffect } from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lomo Camera - Redirecting...",
-  description: "Redirecting to the Lomo Camera app...",
+  title: "Ollo — Disposable Camera",
+  description: "Turn moments into memories",
   robots: "noindex",
 };
 
