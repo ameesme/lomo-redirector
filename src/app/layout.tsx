@@ -6,7 +6,7 @@ import { useEffect } from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ollo — Disposable Camera",
+  title: "Klyp — Disposable Camera",
   description: "Turn moments into memories",
   robots: "noindex",
 };
